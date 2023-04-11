@@ -62,7 +62,7 @@ class Constants extends Html5QrcodeConstants {
     static SHADED_REGION_ELEMENT_ID = "qr-shaded-region";
     static VERBOSE = false;
     static BORDER_SHADER_DEFAULT_COLOR = "#ffffff";
-    static BORDER_SHADER_MATCH_COLOR = "rgb(90, 193, 56)";
+    static BORDER_SHADER_MATCH_COLOR = "rgb(255, 209, 128)";
     //#endregion
 }
 
