@@ -1,14 +1,14 @@
 {
   "name": "html5-qrcode",
-  "version": "2.3.9",
+  "version": "2.4.0",
   "description": "A cross platform HTML5 QR Code & bar code scanner",
   "main": "./dist/cjs/index.js",
-  "module": "./esm/index.js",
-  "typings": "./esm/index.d.ts",
-  "esnext": "./es2015/index.js",
-  "unpkg": "./html5-qrcode.min.js",
+  "module": "./dist/esm/index.js",
+  "typings": "./dist/esm/index.d.ts",
+  "esnext": "./dist/es2015/index.js",
+  "unpkg": "./dist/html5-qrcode.min.js",
   "files": [
-    "./dist"
+    "./dist/**/*"
   ],
   "scripts": {
     "build-windows": "npm run build:es2015 && npm run build:esm && npm run build:esnext && npm run build:cjs && npm run build:umd_windows && npm run build:typing && npm run build:copy_windows",
